@@ -41,7 +41,7 @@ def bres(x1,y1,x2,y2):
     
     plt.plot(xcoordinates, ycoordinates)
     plt.plot(xMid, yMid, 'ro')
-    plt.show()
+    st.show()
 
 def DDALine(x1, y1, x2, y2, color):
     dx = x2 - x1 
@@ -62,7 +62,7 @@ def DDALine(x1, y1, x2, y2, color):
 
     
     plt.plot(xMid, yMid, 'bo')
-    plt.show()
+    st.show()
 
 
 def midpoint(x1, y1, x2, y2, color):
@@ -99,7 +99,7 @@ def midpoint(x1, y1, x2, y2, color):
     
     plt.plot(xcoordinates, ycoordinates)
     plt.plot(xMid, yMid, 'ro')
-    plt.show()
+    st.show()
 
 def main():
     x1 = int(input("Enter the Starting point of x: "))
